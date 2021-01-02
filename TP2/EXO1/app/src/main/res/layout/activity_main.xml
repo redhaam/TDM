@@ -36,7 +36,9 @@
             android:id="@+id/entrer_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/entrer"/>
+            android:hint="@string/entrer"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_"
+            />
 
         <Button
             android:id="@+id/valider"
