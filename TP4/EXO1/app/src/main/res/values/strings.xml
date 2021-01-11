@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tp3</string>
+    <string name="testSmartphone">STARLIGHT M26 2.4" Dual Sim - Rouge</string>
+    <string name="testSmartphoneName">STARLIGHT M26</string>
+    <string name="testSmartphoneSpecs">2.4" Dual Sim - Rouge</string>
+    <string name="testPrice">2100</string>
+    <string name="currency">DA</string>
+    <string name="testQuantity">0</string>
+</resources>
