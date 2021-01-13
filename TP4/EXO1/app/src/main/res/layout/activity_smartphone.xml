@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmartphoneActivity"
+    android:background="@color/fond"
+    >
+
+    <ImageView
+        android:id="@+id/smartphoneImage"
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:src="@drawable/ic_phone"
+        app:layout_constraintBottom_toTopOf="@id/smartphoneName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/smartphoneName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/testSmartphoneName"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/smartphoneImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/smartphoneSpecs"
+        />
+    <TextView
+        android:id="@+id/smartphoneSpecs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/testSmartphoneSpecs"
+        android:textColor="@color/white"
+        android:maxWidth="300dp"
+        android:singleLine="false"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/smartphoneName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/smartphonePrice"
+
+        />
+    <TextView
+        android:id="@+id/smartphonePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/testPrice"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/smartphoneSpecs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/currency"
+        android:textColor="@color/white"
+        android:textSize="7sp"
+        app:layout_constraintBottom_toBottomOf="@+id/smartphonePrice"
+        app:layout_constraintStart_toEndOf="@id/smartphonePrice" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

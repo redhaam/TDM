@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">exo1</string>*
+    <string name="score">score:</string>
+    <string name="valider">valider</string>
+    <string name="entrer">Veuillez saisir un mot</string>
+    <string name="correct_toast">Bravo !!!! Vous avez obtenu 5 points</string>
+    <string name="incorrect_taost">Echec !!!! Le mot saisi n’est pas le bon</string>
+
+</resources>
