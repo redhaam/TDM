@@ -23,7 +23,7 @@ app.get('/getmovies',function(req,res){
 });
 
 app.get('/getmovieactors/:title',function(req,res){  
-    var query = "select id_Actor as id,firstName,lastName,gender from actors,cast,movies where title=?";
+    var query = "select id_Actor as id,firstName,LastName,gender from movies m inner join cast c on m.id=c.id_Movie INNER JOIN actors a on a.id=c.id_Actor where m.title=?";
     connection.query(query,[req.params.title],function(error,results){
     if (error) { throw(error) }
     res.send(JSON.stringify(results));

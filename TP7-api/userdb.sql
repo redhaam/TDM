@@ -60,7 +60,8 @@ CREATE TABLE IF NOT EXISTS `cast` (
   `id_Movie` int(11) NOT NULL,
   `id_Actor` int(11) NOT NULL,
   PRIMARY KEY (`id_Movie`,`id_Actor`),
-  KEY `fk_to_actors` (`id_Actor`)
+  KEY `fk_to_actors` (`id_Actor`),
+  KEY `fk_to_movies` (`id_Movie`),
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
