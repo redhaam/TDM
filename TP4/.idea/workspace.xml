@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f6bdb8c-609c-4315-b1bf-2699aaf1c693" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TP5/app/src/main/java/com/example/tp5/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP5/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/TDM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TEST/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TEST/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TEST/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TEST/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TEST/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TEST/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TEST/TEST.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TP5/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/androidTest/java/com/tdm/tp5exo1/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/java/com/tdm/tp5exo1/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/java/com/tdm/tp5exo1/Pack.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/java/com/tdm/tp5exo1/Product.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/java/com/tdm/tp5exo1/ProductsAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/java/com/tdm/tp5exo1/ProductsFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/java/com/tdm/tp5exo1/Smartphone.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/java/com/tdm/tp5exo1/SmartphoneActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/java/com/tdm/tp5exo1/SmartphoneDetail.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/drawable-v24/bg_img.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/drawable-v24/ic_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/drawable-v24/ic_min.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/drawable-v24/ic_pack.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/drawable-v24/ic_phone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/drawable-xhdpi/xiaomi_poco_x3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/drawable-xhdpi/xiaomi_redmi_note_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/layout-w600dp/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/layout/activity_smartphone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/layout/fragment_products.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/layout/fragment_smartphone_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/layout/product_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/app/src/test/java/com/tdm/tp5exo1/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP5/EXO1/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1nxvuad34RKrPY7DIkKQnWN9vTI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f6bdb8c-609c-4315-b1bf-2699aaf1c693" name="Default Changelist" comment="" />
+      <created>1612344779722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612344779722</updated>
+    </task>
+    <servers />
+  </component>
+</project>
