@@ -6,7 +6,9 @@ const Adress = require('./Adress');
 
 let router = require('express').Router();
 
-// GET /orders
+/* GET /orders
+return Order[]
+*/
 router.get('/', authenticateToken, function (req, res) {
 	let query =
 		'select id_order, order_name, order_status, cost, client as id_client, client_name, email, phone_number, id_adress,longtitude, latitude, street_name  from orders, clients, adresses where orders.id_deliverer = ? and orders.order_adress = adresses.id_adress;';
@@ -26,14 +28,5 @@ router.get('/', authenticateToken, function (req, res) {
 	});
 });
 
-// GET /orders/count
-router.get('/count', authenticateToken, function (req, res) {
-	let query =
-		'SELECT order_status,count(*) as count FROM orders where orders.id_deliverer = ? group by orders.order_status;';
-	database.query(query, [req.userId], function (error, result) {
-		let ordersCount = [...result];
-		res.send(JSON.stringify(ordersCount));
-	});
-});
 
 module.exports = router;

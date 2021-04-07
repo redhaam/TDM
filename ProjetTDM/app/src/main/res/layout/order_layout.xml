@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        >
+        <TextView
+            android:id="@+id/order_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom commande"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:id="@+id/order_number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Numero Commande"
+            android:textSize="12sp"
+            />
+
+
+    </LinearLayout>
+    <ImageView
+        android:padding="30dp"
+        android:layout_weight="1"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_info"
+        />
+</LinearLayout>

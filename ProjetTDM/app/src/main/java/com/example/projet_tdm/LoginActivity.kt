@@ -6,7 +6,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.tp5_v2.RetrofitService
+import com.example.projet_tdm.RetrofitService
+import com.example.projet_tdm.R
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -76,7 +77,28 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun goToMainActivity(){
-        val intent = Intent(getApplicationContext(), MainActivity::class.java)
-        startActivity(intent)
+        var call = RetrofitService.userService.getUser("Bearer "+AuthService.authToken)
+
+        call.enqueue(object: Callback<User>{
+            override fun onResponse(call:Call<User>, response: Response<User>){
+                if (response.isSuccessful()){
+                    var user = response.body() as User
+                    AuthService.user = user
+                    val intent = Intent(getApplicationContext(), MainActivity::class.java)
+                    startActivity(intent)
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "Error retrieving the user data", Toast.LENGTH_SHORT).show()
+                }
+
+            }
+
+            override fun onFailure(call: Call<User>, t: Throwable) {
+                Toast.makeText(getApplicationContext(), t.message, Toast.LENGTH_SHORT).show()
+            }
+
+        })
+
+
     }
 }
